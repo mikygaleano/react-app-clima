@@ -38,7 +38,7 @@ export default function Home () {
           };
         fetchData()
     /* aca le agrego como dependencia lat y lon para que no se acttualize indefinidamente
-    y solo lo haga cuando se actualiza la ubicacion dl geolocation */
+    y solo lo haga cuando se actualiza la ubicacion del geolocation */
     },[lat, lon]);
 
 
