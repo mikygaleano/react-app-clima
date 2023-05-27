@@ -2,6 +2,11 @@ import style from '../CardHome/CardHome.module.css'
 
 export default function CardHome ({data, icon}) {
 
+    if (data.length === 0) {
+        return null; // Si los datos no están disponibles, no renderizar el componente
+      }
+    
+    
     return (
         <>
             <h1>{data.city.name}</h1>

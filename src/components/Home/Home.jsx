@@ -33,7 +33,7 @@ export default function Home () {
                 setApiData(data);
                 console.log(data)
               } catch (error) {
-                console.log(error);
+                return error;
               }
             }
           };
@@ -43,8 +43,11 @@ export default function Home () {
     },[lat, lon]);
 
     
-   let icon = `https://openweathermap.org/img/wn/${apiData.list[0].weather[0].icon}@2x.png`
-
+    let icon = "";
+    if (apiData.list && apiData.list.length > 0) {
+      icon = `https://openweathermap.org/img/wn/${apiData.list[0].weather[0].icon}@2x.png`;
+    }
+    
     return (
         
         <>
