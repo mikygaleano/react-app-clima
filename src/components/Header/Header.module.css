@@ -1,0 +1,19 @@
+
+header {
+    width: 100%;
+    height: 60px;
+    display: contents;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    background-color: brown;
+}
+
+.headerUl {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: blue;
+}
+

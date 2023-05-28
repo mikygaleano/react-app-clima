@@ -1,10 +1,10 @@
-
+import style from '../Header/Header.module.css'
 
 export default function Header ({menu}) {
 
     return (
         <header>
-            <ul>
+            <ul className={style.headerUl}>
                 {
                     menu.map(element => {
                         return (

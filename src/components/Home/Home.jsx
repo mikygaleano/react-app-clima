@@ -1,6 +1,7 @@
 import CardHome from "../CardHome/CardHome";
 
 import { useEffect, useState } from "react"
+import CardMini from "../CardMini/CardMini";
 
 
 export default function Home () {
@@ -50,9 +51,10 @@ export default function Home () {
     
     return (
         
-        <>
+        <section>
             <CardHome data={apiData} icon={icon}/>
-        </>
+            <CardMini/>
+        </section>
         
     )
 }
