@@ -2,7 +2,7 @@
 
 export const liMenu = [
     {
-        title: 'Home',
+        title: 'App react clima',
         link: '/',
         id: 1
     }

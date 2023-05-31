@@ -26,8 +26,9 @@ export default function CardHome ({data}) {
             <section className={background()}>
                 <h1>{`📍🌍 ${data.locality.name} (${data.locality.country})`}</h1>
                 <div className={style.containerCardHome}>
-                    <figure>
-                        <img src={`https://v5i.tutiempo.net/wi/03/50/${data.day1.icon}.png`} alt='icono' />
+                    <figure className={style.figureHome}>
+                        <span>{new Date(data.day1.date).toLocaleDateString("es-ES", { weekday: "long" })}</span>
+                        <img src={`https://v5i.tutiempo.net/wi/01/50/${data.day1.icon}.png`} alt='icono' />
                         <span>{data.day1.text}</span>
                     </figure>
                     <div>
