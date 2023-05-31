@@ -10,19 +10,19 @@
     flex-direction: column;
     align-items: center;
     object-fit: cover;
+    color: blanchedalmond;
 }
 .lluvia {
     background-image: url('../../../public/images/lluvia.jpg');
 }
 .cubierto {
-    color : gold;
     background-image: url('../../../public/images/cubierto.jpg');
 }
 .nuboso {
-    background-image: url('../../../public/images/lluvia.jpg');
+    background-image: url('../../../public/images/nuboso.jpg');
 }
 .soleado {
-    background-image: url('../../../public/images/lluvia.jpg');
+    background-image: url('../../../public/images/soleado.jpg');
 }
 
 

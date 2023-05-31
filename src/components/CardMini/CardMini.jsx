@@ -2,7 +2,6 @@ import style from '../CardMini/CardMini.module.css'
 
 export default function CardMini ({dato}) {
 
-    
 
 
         return (
