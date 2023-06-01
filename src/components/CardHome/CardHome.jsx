@@ -9,14 +9,14 @@ export default function CardHome ({data}) {
             return style["cubierto"]
         } else if (data.day1.text === 'Muy nuboso') {
             return style["nuboso"]
-        } else if (data.day1.text === 'Soleado') {
+        } else if (data.day1.text === 'Despejado') {
             return style["soleado"]
         }
     }
 
     if (data.length === 0) {
         return (
-            <section>
+            <section className={style.doaler}>
                 <h1>Cargando...</h1>
             </section>
         ) // Si los datos no están disponibles, no renderizar el componente
