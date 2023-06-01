@@ -42,7 +42,7 @@ export default function Home () {
                 const arrayData = new datos(
                   data.locality.country,
                   data.locality.name,
-                  [data.day1, data.day2, data.day3, data.day4,data.day5, data.day6, data.day7],
+                  [data.day2, data.day3, data.day4,data.day5, data.day6, data.day7],
                 );
 
                 setApiData(data);
