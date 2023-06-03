@@ -8,7 +8,7 @@ export default function Header ({menu}) {
                 {
                     menu.map(element => {
                         return (
-                            <li key={element.id}><a href={element.link}>{element.title}</a></li>
+                            <li key={element.id}>{element.title}</li>
                         )
                     })
                 }

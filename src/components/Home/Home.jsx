@@ -55,7 +55,7 @@ export default function Home () {
             }
           };
       fetchData()
-    /* aca le agrego como dependencia lat y lon para que no se acttualize indefinidamente
+    /* aca le agrego como dependencia ll para que no se acttualize indefinidamente
     y solo lo haga cuando se actualiza la ubicacion del geolocation */
     },[ll]);
 
