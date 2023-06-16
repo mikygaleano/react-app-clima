@@ -7,7 +7,7 @@ export default function CardHome ({data}) {
             return style["lluvia"]
         } else if (data.day1.text === 'Cubierto') {
             return style["cubierto"]
-        } else if (data.day1.text === 'Muy nuboso' || 'Nubes dispersas') {
+        } else if (data.day1.text === 'Muy nuboso' || 'Nubes dispersas' || 'Parcialmente nuboso') {
             return style["nuboso"]
         } else if (data.day1.text === 'Despejado') {
             return style["soleado"]
